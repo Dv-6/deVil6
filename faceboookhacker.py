@@ -20,7 +20,7 @@ useragents = [('Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/
 
 def main():
 
-	global br	br = mechanize.Browser()
+	global	br = mechanize.Browser()
 
 	cj = cookielib.LWPCookieJar()
 
